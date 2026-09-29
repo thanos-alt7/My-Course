@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         @StringRes
         private val TAB_TITLES = intArrayOf(
             R.string.tab_text_1,
-            R.string.tab_text_2
+            R.string.tab_text_2,
+            R.string.tab_text_3
         )
     }
 
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             tab.text = resources.getString(TAB_TITLES[position])
         }.attach()
         supportActionBar?.elevation = 0f
+
 
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -53,7 +55,6 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.action_materi -> {
-                // Logika untuk melihat skor
                 Toast.makeText(this, "Materi", Toast.LENGTH_SHORT).show()
                 true
             }

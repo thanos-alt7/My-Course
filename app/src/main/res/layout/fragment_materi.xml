@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MateriFragment">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
 
     <TextView
+        style="@style/CustomTextView18Bold"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Materi" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Daftar Materi Praktikum" />
 
-</FrameLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_lnr_layout"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_rlt_layout"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ctr_layout"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_act_intent"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity &amp; intent" />
+
+
+</LinearLayout>

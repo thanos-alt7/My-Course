@@ -6,7 +6,7 @@
         android:title="Home"
         android:icon="@drawable/home"
         android:orderInCategory="100"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/action_materi"
         android:title="Materi"

@@ -5,10 +5,12 @@
         <!-- Anda bisa menambahkan atribut lain seperti padding, textColor, dll. -->
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">16dp</item>
     </style>
     <style name="CustomTextView18Bold" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
     </style>
+
 </resources>
